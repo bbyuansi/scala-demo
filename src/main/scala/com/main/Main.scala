@@ -1,11 +1,11 @@
 package com.main
 
-import com.`match`.Matcher
-import com.list.MapSet
+import com.impatient.{Construct, Point, Practice4}
+
+import scala.collection.mutable.ArrayBuffer
 
 object Main {
     def main(args: Array[String]): Unit = {
-        val a = (new MapSet).longestWrod("hello world nishi nimeia heheheheh")
-        println(a)
+        println(Point(1, 2))
     }
 }
