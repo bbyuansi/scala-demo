@@ -1,6 +1,7 @@
 package com.list
 
 class MapSet {
+
     def longestWrod(string: String) = {
         val words = string.split(" ")
         var word = words(0)
